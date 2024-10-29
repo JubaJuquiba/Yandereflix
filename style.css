@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+* {
+    margin: 0px;
+    border: 0px;
+}
+:root {
+    --cor1: #ed64b2;
+    --cor2: #6dcbf1;
+}
+header {
+    background-color: var(--cor1);
+    color: aliceblue;
+    font-family: "Sofia", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;    
+    padding: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.202);
+}
+#tdm {
+    margin: 10px 0px;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: #00000072 0px 3px 0px;
+    font-size: 1.2em;
+}
+body {
+    background-color: var(--cor2);
+}
+footer {
+    background-color: var(--cor1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: aliceblue;    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #00000072 0px 3px 0px;
+    font-size: 1.1em;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#vds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#vds > iframe {
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 10px;
+    opacity: 0.75;
+    background-color: #000000;
+}
+#vds > iframe:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.218);
+}
+main {
+    display: flex;
+    color: var(--cor1);
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#vdm > iframe {
+    border-radius: 20px;
+}
